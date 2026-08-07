@@ -587,7 +587,7 @@ sessionStorage.setItem("name","kirn");//data insert krne ke liye
 //cookies->ye bhi data store karta hai and appkka data browser ke cookies naam ki property mein save hota hai and ye cookie concept kam data ya light data ke liye hota heh aur hum cookies ko expire bhi kr sakte heh kuj time ke bhadh.
 //cookies~4kb data will be stored through it.
 //cookies mein jo bhi data store karyege woh data page reload par automatically server pr jayega.
-//browser pr search krna hoga sabb
+// browser pr search krna hoga sabb
 document.cookie = "name=kiran";
   
                       //storing\retrieving vs json

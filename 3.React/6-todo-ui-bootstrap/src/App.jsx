@@ -5,13 +5,11 @@ import TodoItems from './component/TodoItems';
 
 function App() {
  return (
-    <>
     <center>
    <AppName />
    <AddTodo />
    <TodoItems/>
-    </center>
-      </>
+   </center>
   );
 }
 export default App;
