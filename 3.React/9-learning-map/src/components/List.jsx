@@ -1,10 +1,15 @@
 const List = ({list}) =>{
 
+  // if(!list || list.length === 0){
+  //   return <h2>No Students are here</h2>
+  // }
 return (
 <>
-<ol className="list-decimal ml-10 mt-5 text-xl">
+{!list || list.length === 0 ? <h2>No students here</h2>
+                           : <h2>Here are the students</h2>}
+{list && list.length>0 && <ol className="list-decimal ml-10 mt-5 text-xl">
 {list.map(item =><li>{item}</li>)}
-</ol>
+</ol>}
 
 <ol className="list-decimal ml-10 mt-5 text-xl">
 {[<li>kiran</li>,<li>Jashan</li>,<li>Manpreet</li>,<li>Mandeep</li>]}

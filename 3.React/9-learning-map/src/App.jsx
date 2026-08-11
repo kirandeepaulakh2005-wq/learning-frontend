@@ -2,6 +2,10 @@ import List from "./components/List"
 function App() {
 
 const studentArr=["kiran","jashan","Manpreet","Mandeep","gopi","Priya","sony"];
+
+// const studentArr=[];
+
+// let studentArr;
   return (
     <>
     <h1 className="text-5xl">
