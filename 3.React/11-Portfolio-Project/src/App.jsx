@@ -1,5 +1,11 @@
 import Header from "./Components/Header"
 import AboutMe from "./Components/AboutMe"
+import Project from "./Components/Project"
+import Skills from "./Components/Skills"
+import Education from "./Components/Education"
+import Hobbies from "./Components/Hobbies"
+import Extracurricular from "./Components/Extracurricular"
+import { Contact } from "lucide-react"
 
 function App() {
 
@@ -9,8 +15,13 @@ function App() {
       <div className="bg-white max-w-4xl mx-auto rounded-xl shadow-lg"> 
             <Header />
             <AboutMe />
-      
-              </div>
+            <Project />
+            <Skills />
+            <Education />
+            <Hobbies />
+            <Extracurricular />
+            <Contact />  
+     </div>
 </div>
     </>
   )
