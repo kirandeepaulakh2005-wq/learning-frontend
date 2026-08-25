@@ -5,7 +5,7 @@ import Skills from "./Components/Skills"
 import Education from "./Components/Education"
 import Hobbies from "./Components/Hobbies"
 import Extracurricular from "./Components/Extracurricular"
-import { Contact } from "lucide-react"
+import Contact from "./Components/Contact"
 
 function App() {
 

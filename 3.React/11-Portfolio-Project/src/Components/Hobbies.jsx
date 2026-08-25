@@ -1,10 +1,10 @@
-import { Award } from 'lucide-react';
+import { Heart } from 'lucide-react';
 import  Section from "./Section";
+import List from './List';
 const Hobbies =() =>{
-    return <Section icon={<Award/>}sectionTitle="Hobbies & Interests">
- <p>
-I'm Kirandeep Kaur, a B.Tech Computer Science Engineering student with a strong interest in web development. I enjoy creating clean, responsive, and user-friendly websites using HTML, CSS, JavaScript, React, and Tailwind CSS.
-</p>
+    const hobbies = ["Web development and coding","Learning C++/DSA and computer science topics","Building projects","Playing Football"]
+    return <Section icon={<Heart/>}sectionTitle="Hobbies & Interests">
+      <List items={hobbies}/>  
 </Section>;
 }
 

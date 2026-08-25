@@ -1,11 +1,10 @@
-import { User } from 'lucide-react';
+import {Award } from 'lucide-react';
 import  Section from "./Section";
+import List from './List';
 const Extracurricular =() =>{
-    return <Section icon={<User/>}sectionTitle="Extracurricular Activities">
- <p>
-I'm Kirandeep Kaur, a B.Tech Computer Science Engineering student with a strong interest in web development. I enjoy creating clean, responsive, and user-friendly websites using HTML, CSS, JavaScript, React, and Tailwind CSS.
-I'm continuously improving my coding and problem-solving skills by working on projects and learning new technologies.
-</p>
+    const items=["Participating in coding/web-development projects","Participating in workshops"," Attending technical training/internships", "Participating in college events","Participating in sports or fitness activities"," Participating in group discussions"]
+    return <Section icon={<Award/>}sectionTitle="Extracurricular Activities">
+    <List items={items}/>
 </Section>;
 }
 
