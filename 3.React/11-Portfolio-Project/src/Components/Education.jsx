@@ -1,11 +1,9 @@
 import { BookOpen } from 'lucide-react';
 import  Section from "./Section";
+import Graduation from './Graduation';
 const Education =() =>{
     return <Section icon={<BookOpen/>}sectionTitle="Education">
- <p>
-I'm Kirandeep Kaur, a B.Tech Computer Science Engineering student with a strong interest in web development. I enjoy creating clean, responsive, and user-friendly websites using HTML, CSS, JavaScript, React, and Tailwind CSS.
-I'm continuously improving my coding and problem-solving skills by working on projects and learning new technologies.
-</p>
+    <Graduation title="Bachelor of Science in Computer Science" school="MIMIT,Malout" year="2023-2027"/>
 </Section>;
 }
 
