@@ -17,7 +17,14 @@ const Contact =() =>{
   Email:kirandeepaulakh2005@gmail.com<br />
   Phone:(+91) 8699615049
 </p>
-{socialLinks.map(social=><SocialMedia icon={social.icon} title ={social.title} url={social.url} />)}
+ {socialLinks.map((social) => (
+          <SocialMedia
+            key={social.title}
+            icon={social.icon}
+            title={social.title}
+            url={social.url}
+          />
+        ))}
 </Section>
   </div>
 }
