@@ -1,5 +1,5 @@
 const TechPill=({title})=>{
-    return <span className="mx-1 bg-gray-300 p-2 rounded-full font-bold text-gray-800 px-4 text-sm" >
+    return <span className="mx-1 bg-blue-100 p-1 px-2.5 rounded-md text-blue-800 text-xs" >
 {title}
     </span>
 

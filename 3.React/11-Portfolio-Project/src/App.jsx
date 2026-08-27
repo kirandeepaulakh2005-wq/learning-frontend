@@ -5,7 +5,7 @@ import Education from "./Components/Education"
 import Hobbies from "./Components/Hobbies"
 import Extracurricular from "./Components/Extracurricular"
 import Contact from "./Components/Contact"
-import Projects from "./Components/projects/Projects"
+import Projects from "./Components/Project/Projects"
 
 function App() {
 
@@ -27,4 +27,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
