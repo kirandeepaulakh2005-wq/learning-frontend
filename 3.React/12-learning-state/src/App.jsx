@@ -1,5 +1,6 @@
 import { useState } from "react";
-import List from "./component/List"
+import List from "./component/List";
+
 function App() {
   const [studentArr , setStudentArr]=useState(["kiran","jashan","Manpreet","Mandeep","gopi","Priya","sony"]);
 
@@ -14,6 +15,7 @@ const onChangeHandler =(event) =>{
   setStudentArr(newArr)
   console.log(newArr);
   }
+
   // console.log(event.key);
 }
   return (
@@ -24,7 +26,7 @@ const onChangeHandler =(event) =>{
     <List list={studentArr}></List>
     <input type="text" placeholder="New student Name" onKeyDown={onChangeHandler} />
 </>
-  )
+  );
 }
 
 export default App;
