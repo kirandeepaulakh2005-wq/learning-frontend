@@ -11,6 +11,7 @@ const StateVsRef = () => {
 const onStateClickHandler =()=>{
         console.log("State Clicked");
         setStateClick(stateClick+1);
+        // setStateClick(currentVal =>currentVal +1);//update state from previous state but when next state depend on previous state
     }
 const onRefClickHandler =()=>{
         console.log("Ref Clicked");
