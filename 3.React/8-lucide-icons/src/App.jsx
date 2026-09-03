@@ -5,7 +5,7 @@ function App() {
     <>
       <Camera color="red" size={55}/>
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
