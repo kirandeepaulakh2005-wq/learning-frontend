@@ -19,7 +19,7 @@ function App() {
       This is my paragraph.
     </p>
     </>
-  )
-}
+  );
+};
 
 export default App;
