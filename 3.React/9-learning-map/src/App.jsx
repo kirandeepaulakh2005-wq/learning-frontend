@@ -1,4 +1,4 @@
-import List from "./components/List"
+import List from "./components/List";
 function App() {
 
 const studentArr=["kiran","jashan","Manpreet","Mandeep","gopi","Priya","sony"];
@@ -13,7 +13,7 @@ const studentArr=["kiran","jashan","Manpreet","Mandeep","gopi","Priya","sony"];
     </h1>
     <List list={studentArr}></List>
 </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
