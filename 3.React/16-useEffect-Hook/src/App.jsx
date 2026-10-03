@@ -22,7 +22,7 @@ function App() {
          }}>Hover</button>
         </div>
     
-  )
+  );
 }
 
-export default App
+export default App;
