@@ -1,4 +1,4 @@
-import { useReducer, useRef, useState } from "react"
+import { useReducer, useRef, useState } from "react";
 
 const counterReducer =(currentState,action) =>{
   console.log('In Reducer',currentState,action);
@@ -70,7 +70,7 @@ function App() {
     <button onClick={handleChangeBy}>Change By</button>
     <input type="text"ref={changeByInput} placeholder="Number" />
     </>
-  )
+  );
 }
 
 export default App;
