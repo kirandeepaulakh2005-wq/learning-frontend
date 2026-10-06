@@ -10,7 +10,7 @@ function App() {
      <Welcome />
      <ThemeToggle />
      </ThemeProvider>
-  )
-}
+  );
+};
 
 export default App;
