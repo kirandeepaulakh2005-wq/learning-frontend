@@ -1,12 +1,12 @@
 import './App.css'
 // import Button, {Dangerbutton, Successbutton} from './components/Buttons'
-import DynamicComponent from './components/DynamicComponent'
-import Heading from './components/Heading'
-import Paragraph from './components/Paragraph'
-import StudentList from './components/StudentList'
-import RandomNumber from './components/RandomNumber'
-import Title from './components/Title'
-import Button from './components/Buttons'
+import DynamicComponent from './components/DynamicComponent';
+import Heading from './components/Heading';
+import Paragraph from './components/Paragraph';
+import StudentList from './components/StudentList';
+import RandomNumber from './components/RandomNumber';
+import Title from './components/Title';
+import Button from './components/Buttons';
 
 
 function App() {
@@ -46,7 +46,7 @@ function App() {
     <StudentList students={students}/>
     <StudentList students={newStudents} />
     </>
-  )
-}
+  );
+};
     
 export default App;
