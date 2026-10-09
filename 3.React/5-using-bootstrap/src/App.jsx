@@ -1,4 +1,4 @@
-import './App.css'
+import './App.css';
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
 <button type="button" class="kg-btn btn btn-dark">Dark</button>
 <button type="button" class="kg-btn btn btn-link">Link</button>
     </>
-  )
-}
+  );
+};
 
 export default App;
