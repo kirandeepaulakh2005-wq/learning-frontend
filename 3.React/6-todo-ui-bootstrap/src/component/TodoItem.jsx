@@ -15,6 +15,6 @@ const TodoItem = ({id,todoText,todoDate}) =>{
      </div>
      </div>
      </div>
-}
+};
 
 export default TodoItem; 
