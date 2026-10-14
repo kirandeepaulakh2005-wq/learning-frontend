@@ -1,5 +1,5 @@
 import React, { useContext, useRef } from 'react';
-import { PostListContext } from '../Store/Post-List-Store';
+import { PostListContext } from '../Store/Post-List-Store'
 
 const CreatePost = () => {
 
@@ -109,6 +109,6 @@ const CreatePost = () => {
     </button>
 </form>
   );
-}
+};
 
 export default CreatePost;
