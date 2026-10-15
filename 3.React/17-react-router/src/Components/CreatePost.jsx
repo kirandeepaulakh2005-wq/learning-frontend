@@ -109,6 +109,6 @@ const CreatePost = () => {
     </button>
 </form>
   );
-};
+}
 
 export default CreatePost;
