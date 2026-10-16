@@ -65,6 +65,6 @@ const Sidebar = ({ selectedTab ,setSelectedTab }) => {
                    </div> 
                    </div>
   );
-}
+};
 
 export default Sidebar;
