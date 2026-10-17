@@ -32,6 +32,6 @@ const dob =useRef();
         </form>
     </div>
   );
-}
+};
 
 export default TestForm;
